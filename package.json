@@ -1,0 +1,20 @@
+{
+  "name": "status",
+  "version": "1.7.0",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/arulkumarkandasamy/GithubHelmActions",
+  "author": {
+    "name": "arulkumarkandasamy",
+    "url": "https://github.com/arulkumarkandasamy"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/exec": "^1.0.0",
+    "@actions/github": "^1.0.0",
+    "mustache": "^3.0.3"
+  },
+  "scripts": {
+    "release": "standard-version"
+  }
+}
